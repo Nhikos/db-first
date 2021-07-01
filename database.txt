@@ -1,0 +1,16 @@
+Nome tabella: Concessionaria
+
+id- intero - MEDIUMINT - PRIMARY KEY - AUTO_INCREMENT
+marca - stringa - VARCHAR(20) - NOTNULL
+modello - stringa  - VARCHAR(20) - NOTNULL
+targa - stringa - VARCHAR(7) - NOTNULL
+porte - intero - TINYINT - NOTNULL
+colore - stringa - VARCHAR(20) - NOTNULL
+cambio - stringa - VARCHAR(15) - NOTNULL
+peso - stringa - VARCHAR(20) -  NOTNULL
+cilindrata - stringa - VARCHAR(20) - NOTNULL
+km - intero - INT - NOTNULL
+alimentazione - stringa - VARCHAR(30) - NOTNULL
+cavalli - intero - SMALLINT -  NOTNULL
+numero_proprietari - intero - TINYINT - DEFAULT 1
+anno_immatricolazione - data - YEAR - NOTNULL
